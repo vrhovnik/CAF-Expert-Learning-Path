@@ -1,4 +1,4 @@
-# CAF Expert learning path
+# Cloud Adoption Expert Learning Path
 
 ## Attendee Requirements
 

@@ -1,4 +1,4 @@
-# Welcome to the Cloud Adoption Expert learning path!
+# Welcome to the Cloud Adoption Expert Learning Path!
 
 This learning path for Microsoft partners is aligned with Module A (aka "The Cloud Foundation") for Azure Advanced Specialization. This module evaluates the use of a consistent methodology and process for Azure adoption that is aligned with customers’ expected outcomes, spanning the entire cloud adoption lifecycle.
 
@@ -23,14 +23,14 @@ The Microsoft Cloud Adoption (CAF) Framework is an iterative approach to support
 
 ---
 
-## CAF Introduction
+## Intro to the Cloud Adoption Framework
 
 There are multiple sources to get a quick introduction into the Cloud Adoption Framework. There is a high-level learning path in [Microsoft Docs](https://docs.microsoft.com/learn/modules/microsoft-cloud-adoption-framework-for-azure/).
 There is also an on-demand course in the [Microsoft Partner Network](https://partner.microsoft.com/en-us/training/assets/collection/cloud-adoption-framework-for-microsoft-azure#/).
 
 ## The learning path
 
-The learning path is based on an in-depth introduction to CAF covering all 5 pillars (as per Azure AS Module A requirements) plus three main modules with multiple hands-on activities.
+The learning path is based on an in-depth review of the Cloud Adoption Framework covering all pillars (as per Azure AS Module A requirements) plus three main modules with multiple hands-on activities in the form of labs, hackathons, and whiteboard desing sessions.
 
 ---
 

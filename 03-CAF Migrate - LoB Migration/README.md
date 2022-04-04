@@ -24,4 +24,4 @@ In this challenge you will be leveraging Azure Migrate to discover and assess on
 In this challenge we will design and build the Landing Zone required for the migration.
 
 [Challenge 4](challenges/challenge4.md)
-In this challenge we will migrate the database and the customer facing website to azure.
+In this challenge we will migrate the database and the customer facing website to Azure.

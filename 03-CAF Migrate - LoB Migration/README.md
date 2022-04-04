@@ -18,7 +18,7 @@ At the end of this workshop, you will be better able to rationalize the migratio
 In this whiteboard design session, you will look at how to design an Azure migration for a heterogenous customer environment.
 
 [Challenge 2](./challenges/challenge2.md)
-In this challenge you will be leveraging Azure Migrate to discover and assesses on-premises servers for migration to Azure.
+In this challenge you will be leveraging Azure Migrate to discover and assess on-premises servers for migration to Azure.
 
 [Challenge 3](./challenges/challenge3.md)
 In this challenge we will design and build the Landing Zone required for the migration.

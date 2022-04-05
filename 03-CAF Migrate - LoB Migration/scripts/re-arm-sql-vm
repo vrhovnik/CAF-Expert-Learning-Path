@@ -1,5 +1,7 @@
-# Execute the below via the run command in the Azure Portal to re-arm the SQL Server VM
-# Update Password before executing
+# Update the password on line 16
+# Run the following PowerShell command on the host VM (SmartHotelHost) either via Invoke-AzVMRunCommand,
+# the Run Command in the Portal GUI, or RDP'ing to the host and running it there:
+
 $VMName = "smarthotelSQL1"
 $vm = Get-VM -Name $VMName 
 do {

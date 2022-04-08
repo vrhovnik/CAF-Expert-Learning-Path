@@ -1,6 +1,4 @@
-# CAF Hackathon
-
-**Advanced** - Azure Landing Zones Accelerator
+# CAF Hackathon Advanced - Azure Landing Zones Accelerator
 
 ---
 

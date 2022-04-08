@@ -31,7 +31,14 @@ Success criteria for this challenge:
 - Configure AzOps via Portal or command-line script
 - Initiate the first Pull workflow
 - Validate AzOps by creating a new [Policy Assignment](https://github.com/Azure/Enterprise-Scale/wiki/Deploying-Enterprise-Scale-Platform-DevOps#create-new-policy-assignment-for-validation)
-- Modify the policy which is enforcing the use of Network Security Groups to include an exception for the Azure Bastion subnet
+
+## Challenge 2a - PaC with GitHub Actions
+
+In this challenge you will be using Policy-As-Code to modify a policy definition which is blocking you from creating the Azure Bastion Subnet.
+
+- In your hub network, try to create the Azure Bastion Subnet. Azure Policy should block the operation.
+- Modify the policy which is enforcing the use of Network Security Groups.
+- Create the Azure Bastion Subnet.
 
 ---
 

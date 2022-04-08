@@ -47,7 +47,8 @@ In this challenge you will be implementing [AzGovViz](https://github.com/JulianH
 Success criteria for this challenge:
 
 - Setup AzGovViz from the console or GitHub Codespaces
-- Run AzGovViz
+- Run AzGovViz, show and tell your findings to your coach.
+- Vist AzAdvertizer, show and tell your findings to your coach.
 
 ---
 

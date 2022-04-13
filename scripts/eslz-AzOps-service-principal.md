@@ -24,9 +24,9 @@ AzOps pipelines can use either a Service Principal, or a Managed Identity if run
 
 ## Install PowerShell modules
 
-- Install the latest version of [PowerShell 7
+- Install the latest version of [PowerShell 7](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
 
-- Install Modules using these commands:](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
+- Install Modules using these commands:
 
 ```powershell
 Install-Module Az.Accounts, Az.Resources, Microsoft.Graph.Identity.DirectoryManagement, Microsoft.Graph.Applications

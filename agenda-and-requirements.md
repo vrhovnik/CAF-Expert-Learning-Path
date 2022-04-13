@@ -11,8 +11,19 @@
 
 # Azure subscription requirements
 
-- Azure subscriptions based on Free Account (aka Free Trial) are not compatible with the hands-on labs
+- Azure subscriptions based on Free Account (aka Free Trial) are not compatible with the hands-on labs.
 
-- Azure subscription for CAF Migration must be a paid (not Trial) subscription and can be shared across teams as long as there are sufficient resource quotas
+- Azure subscription for CAF Migration must be a paid (not Trial) subscription and can be shared across teams as long as there are sufficient resource quotas.
 
-- Azure subscription for CAF Advanced must be a paid subscription associated to a non-production AAD tenant since [tenant root access](https://github.com/Azure/Enterprise-Scale/wiki/Deploying-Enterprise-Scale-Pre-requisites) is required during HOL
+- Azure subscription for CAF Advanced must be a paid subscription associated to a non-production AAD tenant since [tenant root access](https://github.com/Azure/Enterprise-Scale/wiki/Deploying-Enterprise-Scale-Pre-requisites) is required during HOL.
+
+ 
+
+# **Tooling Prerequisites**
+
+To avoid any delays with downloading or installing tooling, have the following ready prior to attending:
+
+- A modern laptop running the latest version of either Windows 10  or Window 11, Mac OS X 10.13 or higher, or Ubuntu 16.04.
+- Install your choice of Integrated Development Environment (IDE) software, such
+   as [Visual Studio](https://visualstudio.microsoft.com/vs/community/), [Visual Studio Code](https://code.visualstudio.com/download), [Eclipse](https://www.eclipse.org/), or [IntelliJ](https://www.jetbrains.com/idea/)
+- Download of the latest version of PowerShell, Az. PowerShell Modules, [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)

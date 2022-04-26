@@ -14,7 +14,7 @@ In this challenge you will learn about the Define Strategy phase from the Cloud 
 
 ## Key Points to be covered
 
-- This challenge involves documenting motivations, business outcomes, and key stakeholders to clearly articulate and answer “why does the cloud make sense for my business?”.  
+- This challenge involves documenting motivations, business outcomes, and key stakeholders to clearly articulate and answer “why does cloud make sense for my business?”.  
 - Keep in mind that each team will be presenting all information back to the customer’s senior leadership team to justify adopting Azure (Challenge 4). Make this clear with your team from the start.
 - Your team should have completed the following items (preferably in order and together, but that is up to you):
   1. [Cloud Journey Tracker](https://docs.microsoft.com/assessments/?mode=pre-assessment&id=cloud-journey-tracker) – understand the customer’s cloud adoption needs through this **assessment** tool

@@ -6,5 +6,5 @@ In this whiteboard design session, you will look at how to design an Azure migra
 
 At the end of this workshop, you will be better able to design and implement the discovery and assessment of environments to evaluate their readiness for migrating to Azure using services including Azure Migrate and Azure Database Migration Service.
 
-The guide for this WDS is available [here.](/03-CAF%20Migrate%20-%20LoB%20Migration/CAF-Migrate-WDS/WDS%20student%20guide%20-%20Line-of-business%20application%20migration.md)
-The architecture for this WDS is available [here](https://github.com/jonathan-vella/CAF-Expert-Learning-Path/blob/main/03-CAF%20Migrate%20-%20LoB%20Migration/media/application_architecture.png)
+- The guide for this WDS is available [here.](/03-CAF%20Migrate%20-%20LoB%20Migration/CAF-Migrate-WDS/WDS%20student%20guide%20-%20Line-of-business%20application%20migration.md)
+- The architecture for this WDS is available [here](https://github.com/jonathan-vella/CAF-Expert-Learning-Path/blob/main/03-CAF%20Migrate%20-%20LoB%20Migration/media/application_architecture.png)

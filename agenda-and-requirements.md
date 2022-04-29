@@ -23,7 +23,9 @@
 
 To avoid any delays with downloading or installing tooling, have the following ready prior to attending:
 
+- A GitHub account.
 - A modern laptop running the latest version of either Windows 10  or Window 11, Mac OS X 10.13 or higher, or Ubuntu 16.04.
 - Install your choice of Integrated Development Environment (IDE) software, such
    as [Visual Studio](https://visualstudio.microsoft.com/vs/community/), [Visual Studio Code](https://code.visualstudio.com/download), [Eclipse](https://www.eclipse.org/), or [IntelliJ](https://www.jetbrains.com/idea/)
 - Download of the latest version of PowerShell, Az. PowerShell Modules, [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+- Preferably, if using Windows, also install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install)

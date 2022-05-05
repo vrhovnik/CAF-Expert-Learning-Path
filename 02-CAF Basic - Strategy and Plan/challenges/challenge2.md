@@ -22,4 +22,5 @@ In this challenge you will have the opportunity to review the organization and u
 
 1. Build a repeatable skills readiness plan
 2. Build a cloud strategy team (referencing the RACI chart)
-3. **Bonus** Complete the Governance Benchmark assessment
+3. Build a business risk MVP (min. 6 business risks)
+4. **Bonus** Complete the Governance Benchmark assessment

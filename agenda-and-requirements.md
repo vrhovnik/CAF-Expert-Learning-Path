@@ -17,6 +17,8 @@
 
 - Azure subscription for CAF Advanced must be a paid subscription associated to a non-production AAD tenant since [tenant root access](https://github.com/Azure/Enterprise-Scale/wiki/Deploying-Enterprise-Scale-Pre-requisites) is required during HOL.
 
+- Azure subscriptions in CSP must have Azure Cost Management enabled as per this [document](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/get-started-partners)
+
  
 
 # **Tooling Prerequisites**

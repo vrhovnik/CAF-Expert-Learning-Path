@@ -12,7 +12,8 @@ Azure Advanced Specialization Module A covers these 5 pillars:
 
 ![CAF Expert](./images/caf-expert.png)
 
-The Microsoft Cloud Adoption (CAF) Framework is an iterative approach to support the digital transformation journey of an organization. It gives a collection of best practices, architectures and methodologies to ensure the integration of cloud into this journey. Having CAF experts in a partner organization enables the partner to become a trusted advisor not only for their customers on their journey to cloud, but also to Microsoft field teams. These “experts” can continuously generate more business with customers along an iterative journey of digital transformation.
+The Cloud Adoption Expert learning path is based on the Cloud Adoption Framework for Azure, an iterative approach which supports the digital transformation journey of an organization. It gives a collection of best practices, architectures and methodologies to ensure the integration of cloud into this journey.
+Having Cloud Adoption experts in a partner organization enables the partner to become a trusted advisor not only for their customers on their journey to cloud, but also to Microsoft field teams. These “experts” can continuously generate more value and more business with customers along an iterative journey of digital transformation.
 
 > **_For further information please_** [download this document](./sources/CAF%20Expert.pdf)
 

@@ -14,10 +14,10 @@ Azure Advanced Specialization Module A covers these 5 pillars:
 
 The learning path is based on the Microsoft Cloud Adoption Framework for Azure (CAF). It is guidance that's designed to help organizations create and implement business and technology strategies for the cloud. It provides best practices, documentation, and tools. Cloud architects, IT professionals, and business decision makers use this information to achieve their cloud adoption goals.
 
-By using the Cloud Adoption Framework for Azure best practices, organizations can better align their business and technical strategies to ensure success. 
-
 
 Having Cloud Adoption experts in a partner organization enables the partner to become a trusted advisor not only for their customers on their journey to the cloud, but also to Microsoft field teams. These “experts” continuously generate more value  with customers by leveraging CAF for Azure best practices, and help these customers' better align their business and technical strategies to ensure success.
+
+
 
 > **_For further information please_** [download this document](./sources/CAF%20Expert.pdf)
 

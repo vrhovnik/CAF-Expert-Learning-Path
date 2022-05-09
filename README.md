@@ -1,6 +1,6 @@
 # Welcome to the Cloud Adoption Expert Learning Path!
 
-This learning path for Microsoft partners is aligned with Module A (aka "The Cloud Foundation") for Azure Advanced Specialization. This module evaluates the use of a consistent methodology and process for Azure adoption that is aligned with customers’ expected outcomes, spanning the entire cloud adoption lifecycle.
+This learning path for Microsoft partners is aligned with Module A (aka "The Cloud Foundation") for Azure Advanced Specialization. This module evaluates the use of a consistent methodology and process for Azure adoption that is aligned with customers’ expected business outcomes, spanning the entire cloud adoption lifecycle.
 
 Azure Advanced Specialization Module A covers these 5 pillars:
 
@@ -12,14 +12,19 @@ Azure Advanced Specialization Module A covers these 5 pillars:
 
 ![CAF Expert](./images/caf-expert.png)
 
-The Cloud Adoption Expert learning path is based on the Cloud Adoption Framework for Azure, an iterative approach which supports the digital transformation journey of an organization. It gives a collection of best practices, architectures and methodologies to ensure the integration of cloud into this journey.
-Having Cloud Adoption experts in a partner organization enables the partner to become a trusted advisor not only for their customers on their journey to cloud, but also to Microsoft field teams. These “experts” can continuously generate more value and more business with customers along an iterative journey of digital transformation.
+The learning path is based on the Microsoft Cloud Adoption Framework for Azure (CAF). It is guidance that's designed to help organizations create and implement business and technology strategies for the cloud. It provides best practices, documentation, and tools. Cloud architects, IT professionals, and business decision makers use this information to achieve their cloud adoption goals.
+
+By using the Cloud Adoption Framework for Azure best practices, organizations can better align their business and technical strategies to ensure success. 
+
+
+Having Cloud Adoption experts in a partner organization enables the partner to become a trusted advisor not only for their customers on their journey to the cloud, but also to Microsoft field teams. These “experts” continuously generate more value  with customers by leveraging CAF for Azure best practices, and help these customers' better align their business and technical strategies to ensure success.
 
 > **_For further information please_** [download this document](./sources/CAF%20Expert.pdf)
 
 ---
 
 ## Prerequisites
+
 ### Please review the requirements including self-paced online courses, certifications, and Azure subscriptions for this learning path listed [here](https://github.com/jonathan-vella/CAF-Expert-Learning-Path/blob/main/agenda-and-requirements.md).
 
 ---
@@ -95,4 +100,3 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 - [Introduction to the Microsoft Azure Cloud Adoption Framework](https://docs.microsoft.com/en-us/learn/modules/microsoft-cloud-adoption-framework-for-azure/)
 - [Introduction to the Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-us/learn/modules/azure-well-architected-introduction/)
 - [Build great solutions with the Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-us/learn/paths/azure-well-architected-framework/)
-

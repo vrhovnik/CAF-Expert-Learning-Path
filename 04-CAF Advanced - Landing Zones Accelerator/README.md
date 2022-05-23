@@ -13,7 +13,7 @@ At the end of this workshop, you will be able to leverage the existing enterpris
 
 - Azure Landing Zones overview
 - Enterprise Scale introduction
-- Design areas and design principles
+- Design areas, principles, considerations, and recommendations
 
 ### Hackathon Day 2 (6h)
 

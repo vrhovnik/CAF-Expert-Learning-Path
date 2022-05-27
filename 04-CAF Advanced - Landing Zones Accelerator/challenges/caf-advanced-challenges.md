@@ -2,17 +2,17 @@
 
 ---
 
-## Challenge 1 - Enterprise Scale Deployment
+## Challenge 1 - Azure landing zone conceptual architecture deployment
 
-In this challenge you will be deploying one of the Enterprise Scale Reference implementations located in this [repository](https://github.com/Azure/Enterprise-Scale).
+In this challenge you will be deploying one of the Reference implementations located in this [repository](https://github.com/Azure/Enterprise-Scale).
 
 Success criteria for this challenge:
 
 - Plan and document the IP addressing for the Hub network. Customer will be leveraging Azure Firewall, Azure ExpressRoute + VPN, Azure Bastion.
 - In your plan, clearly document subnet names, whether the use of NSGs and / or UDRs is allowed, and the minimum recommended subnet size.
-- Define if it's a brownfield or greenfield deployment
-- Create a high-level deployment workflow (diagram not a CICD pipeline!) including pre-requisites
-- Deploy either the Trey Research or AdventureWorks reference implementation
+- Define if it's a brownfield or greenfield deployment.
+- Create a high-level deployment workflow (diagram not a CICD pipeline!) including pre-requisites.
+- Deploy either the Trey Research or AdventureWorks reference implementation.
 
 - **Do not deploy** the integrated CICD pipeline
 

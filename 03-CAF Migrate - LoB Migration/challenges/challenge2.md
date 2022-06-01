@@ -26,6 +26,7 @@ Customer has the following requirements which you should take into consideration
 
 - Dependencies between servers in the on-premises environment can be visualized before migration and visualizations include server-to-server connections as well as ports and protocols.
 - The network design limits communication between application tiers to only the required ports and protocols while limiting lateral movement within the network.
+- The network design must include secure application delivery whilst minimizing the overhead of certificate lifecycle management. Any modification to IIS and / or Windows Firewall are not allowed at this stage.
 - The servers targeted for migration are sized appropriately and the compute needs of each server can be adjusted to meet application owner requirements before migration.
 - The estimated cost for each application can be viewed independently and demonstrates the lowest acceptable cost with equivalent performance to the existing on-premises servers.
 

@@ -14,7 +14,15 @@ At the end of this workshop, you will be better able to rationalize the migratio
 
 ### Before attending please review the requirements (self-paced online courses, certifications, Azure subscription) for this module listed [here](https://github.com/jonathan-vella/CAF-Expert-Learning-Path/blob/main/agenda-and-requirements.md).
 
-**<u>Hands-on Lab guide</u>** is available [here](https://github.com/jonathan-vella/MCW-Line-of-business-application-migration/tree/master)
+---
+
+## Guidance for Challenges 2-3
+
+Hands-on lab **step-by-step** guidance is available [here](https://github.com/jonathan-vella/MCW-Line-of-business-application-migration/tree/master)
+
+The **architecture** for this lab is available [here.](https://github.com/jonathan-vella/CAF-Expert-Learning-Path/blob/main/03-CAF%20Migrate%20-%20LoB%20Migration/media/application_architecture.png)
+
+Note: If **outbound RDP** connectivity is not allowed from your current location, you can either opt to peer networks or deploy Azure Bastion in the same VNET where your host is deployed. **Azure Bastion deployment time is of circa 20mins.** 
 
 ---
 

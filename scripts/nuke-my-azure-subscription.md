@@ -4,7 +4,7 @@
 
 This a very effiicient way to clean up resources in an Azure subscription. 
 
-Disclaimer: I nor my employer cannot be held responsible for any loss of data as a result from executing the commands below.
+Disclaimer: I (or my employer) cannot be held responsible for any loss of data resulting from executing the commands below.
 
 ---
 

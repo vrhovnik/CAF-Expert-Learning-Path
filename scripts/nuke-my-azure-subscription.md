@@ -1,6 +1,8 @@
 # Clean up your entire Azure subscription aka Nuke-My-Azure
 
- This an effiicient way to clean up (read as destroy) all resources in an Azure subscription. Proceed with caution. 
+**Proceed with extreme caution**
+
+This a very effiicient way to clean up resources in an Azure subscription. 
 
 Disclaimer: I nor my employer cannot be held responsible for any loss of data as a result from executing the commands below.
 
@@ -35,7 +37,6 @@ Get-AzResourceGroup | ? ResourceGroupName -match $filter | Remove-AzResourceGrou
 
 ```powershell
 Get-AzResourceGroup | Remove-AzResourceGroup -AsJob -Force
-
 ```
 
 #### Monitor progress.
@@ -53,5 +54,3 @@ Get-AzPolicyDefinition -custom | Remove-AzPolicyDefinition -force
 ```
 
 ---
-
-

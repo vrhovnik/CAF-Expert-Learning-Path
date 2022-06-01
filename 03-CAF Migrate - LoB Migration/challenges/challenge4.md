@@ -6,7 +6,7 @@ In this challenge we will migrate the database and the website server to azure.
 
 Our last challenge is the migration of the webserver and the UbuntuWAF as IaaS to Azure as well as migrating the existing Database to Azure Database PaaS.
 
-We don't provide any additional information - we want your hear your concept and after the concept is discussed, we want your team to migrate to PaaS in Azure. Tasks:
+We don't provide any additional information - we want to first hear your concept and after the concept is discussed, we want your team to migrate to PaaS in Azure. Tasks:
 
 1. Describe your concept of migration with your peers and wait for "GO" from the trainer.
 2. Migrate the servers and database to Azure.

@@ -9,9 +9,15 @@ In this 2-day workshop, you will learn how to design a migration strategy for an
 At the end of this workshop, you will be better able to rationalize the migration of various workloads to Microsoft Azure as well as understanding how to determine the cost of hosting migrated workloads in Azure.
 
 ---
+
 ## Prerequisites
+
 ### Before attending please review the requirements (self-paced online courses, certifications, Azure subscription) for this module listed [here](https://github.com/jonathan-vella/CAF-Expert-Learning-Path/blob/main/agenda-and-requirements.md).
+
+**<u>Hands-on Lab guide</u>** is available [here](https://github.com/jonathan-vella/MCW-Line-of-business-application-migration/tree/master)
+
 ---
+
 ## Challenges
 
 [Challenge 1](./challenges/challenge1.md)

@@ -22,9 +22,11 @@ This requires the following:
 
 1.4 Under *Access management for Azure resources,* set the toggle to *Yes
 
-### Grant Access to the User at *tenant root scope “/”* to deploy Enterprise-Scale
+#### Grant Access to the User at the *tenant root scope “/”* to deploy Enterprise-Scale
 
 You can use either Bash (CLI) or PowerShell to create the roleAssignment for the current user – or a dedicated user – that will do the deployment.
+
+**Please note: sometimes it can take up to 15-30 minutes for the permissions to propagate at tenant root scope. It is highly recommended that you log out and log back in to refresh the token before you proceed with the deployment.***
 
 Bash:
 
@@ -33,15 +35,10 @@ Bash:
 az login
 
 #assign Owner role to Tenant root scope  ("/") as a Owner (gets object Id of the current user (az login))
-az role assignment create  --scope '/' --role 'Owner' --assignee-object-id $(az ad user show -o tsv --query objectId --id '<replace-me>@<my-aad-domain.com>')Please note: sometimes it can take up to 15 minutes for permission to propagate at tenant root scope. It is highly recommended that you log out and log back in to refresh the token before you proceed with the deployment.*
-
+az role assignment create  --scope '/' --role 'Owner' --assignee-object-id $(az ad user show -o tsv --query id --id '<replace-me>@<my-aad-domain.com>')
 ```
 
----
-
-#### Revoke Access to the User at *tenant root scope “/”* to deploy Enterprise-Scale
-
-You can use either Bash (CLI) or PowerShell to remove the roleAssignment for the current user – or a dedicated user – that had deployed ESLZ.
+#### Revoke Access to the User at the *tenant root scope “/”* who deployed Enterprise-Scale
 
 Bash:
 
@@ -49,31 +46,12 @@ Bash:
 az role assignment delete --assignee username@example.com --role "User Access Administrator" --scope "/"
 ```
 
-PowerShell:
-
-```powershell
-Remove-AzRoleAssignment -SignInName <username@example.com> `
-  -RoleDefinitionName "User Access Administrator" -Scope "/"
-```
-
 ---
 
-**Alternative BASH commands**
-
-## bash
-
-## AZ Role Assignment
+#### Check role assignment at the *tenant root scope "/"*
 
 ```bash
-az role assignment create  --scope '/' --role 'Owner' --assignee-object-id $(az ad user show -o tsv --query objectId --id '<replace-me>@<my-aad-domain.com>')
+az role role assignment list --role "User Access Administrator" --scope "/"## AZ Role Assignment list
 ```
-
-## AZ Role Assignment list
-
-az role role assignment list --role "User Access Administrator" --scope "/"
-
-## AZ Role Assignment Delete
-
-az role assignment delete --assignee username@example.com --role "User Access Administrator" --scope "/"
 
 ---

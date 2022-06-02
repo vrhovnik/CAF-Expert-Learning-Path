@@ -51,7 +51,7 @@ az role assignment delete --assignee username@example.com --role "User Access Ad
 #### Check role assignment at the *tenant root scope "/"*
 
 ```bash
-az role role assignment list --role "User Access Administrator" --scope "/"## AZ Role Assignment list
+az role role assignment list --role "User Access Administrator" --scope "/"
 ```
 
 ---

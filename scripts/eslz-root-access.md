@@ -33,23 +33,9 @@ Bash:
 az login
 
 #assign Owner role to Tenant root scope  ("/") as a Owner (gets object Id of the current user (az login))
-az role assignment create --scope '/'  --role 'Owner' --assignee-object-id $(az ad signed-in-user show --query "objectId" --output tsv)
+az role assignment create  --scope '/' --role 'Owner' --assignee-object-id $(az ad user show -o tsv --query objectId --id '<replace-me>@<my-aad-domain.com>')Please note: sometimes it can take up to 15 minutes for permission to propagate at tenant root scope. It is highly recommended that you log out and log back in to refresh the token before you proceed with the deployment.*
+
 ```
-
-Powershell:
-
-```powershell
-#sign in to Azure  from Powershell, this will redirect you to a web browser for authentication, if required
-Connect-AzAccount
-
-#get object Id of  the current user (that is used above)
-$user = Get-AzADUser -UserPrincipalName (Get-AzContext).Account
-
-#assign Owner  role to Tenant root scope ("/") as a User Access Administrator
-New-AzRoleAssignment -Scope '/' -RoleDefinitionName 'Owner' -ObjectId $user.Id
-```
-
-> Please note: sometimes it can take up to 15 minutes for permission to propagate at tenant root scope. It is highly recommended that you log out and log back in to refresh the token before you proceed with the deployment.*
 
 ---
 
@@ -69,16 +55,25 @@ PowerShell:
 Remove-AzRoleAssignment -SignInName <username@example.com> `
   -RoleDefinitionName "User Access Administrator" -Scope "/"
 ```
+
 ---
+
 **Alternative BASH commands**
+
 ## bash
+
 ## AZ Role Assignment
+
+```bash
 az role assignment create  --scope '/' --role 'Owner' --assignee-object-id $(az ad user show -o tsv --query objectId --id '<replace-me>@<my-aad-domain.com>')
+```
 
 ## AZ Role Assignment list
+
 az role role assignment list --role "User Access Administrator" --scope "/"
 
 ## AZ Role Assignment Delete
+
 az role assignment delete --assignee username@example.com --role "User Access Administrator" --scope "/"
 
 ---

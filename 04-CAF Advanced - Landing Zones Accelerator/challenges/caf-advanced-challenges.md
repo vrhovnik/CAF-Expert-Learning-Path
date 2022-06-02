@@ -60,3 +60,9 @@ Success criteria for this challenge:
 
 - Use the Excel spreadsheet, import the latest checklist, and explore the contents of the file.
 - If there is enough time left, use the Azure Resource Graph to verify your Azure environment.
+
+---
+
+## Challenge 5 - Azure Environment Clean-up
+
+Works-in-progress

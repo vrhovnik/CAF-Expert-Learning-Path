@@ -69,5 +69,16 @@ PowerShell:
 Remove-AzRoleAssignment -SignInName <username@example.com> `
   -RoleDefinitionName "User Access Administrator" -Scope "/"
 ```
+---
+**Alternative BASH commands**
+## bash
+## AZ Role Assignment
+az role assignment create  --scope '/' --role 'Owner' --assignee-object-id $(az ad user show -o tsv --query objectId --id '<replace-me>@<my-aad-domain.com>')
 
+## AZ Role Assignment list
+az role role assignment list --role "User Access Administrator" --scope "/"
 
+## AZ Role Assignment Delete
+az role assignment delete --assignee username@example.com --role "User Access Administrator" --scope "/"
+
+---

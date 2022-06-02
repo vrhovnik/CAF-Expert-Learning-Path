@@ -26,7 +26,7 @@ This requires the following:
 
 You can use either Bash (CLI) or PowerShell to create the roleAssignment for the current user – or a dedicated user – that will do the deployment.
 
-**Please note: sometimes it can take up to 15-30 minutes for the permissions to propagate at tenant root scope. It is highly recommended that you log out and log back in to refresh the token before you proceed with the deployment.***
+**Please note: sometimes it can take up to 15-30 minutes for the permissions to propagate at tenant root scope. It is highly recommended that you log out and log back in to refresh the token before you proceed with the deployment.**
 
 Bash:
 
@@ -50,7 +50,9 @@ az role assignment delete --assignee username@example.com --role "User Access Ad
 
 #### Check role assignment at the *tenant root scope "/"*
 
-```bash
+Bash:
+
+```shell
 az role role assignment list --role "User Access Administrator" --scope "/"
 ```
 

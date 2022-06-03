@@ -20,5 +20,7 @@ At the end of this workshop, you will be able to understand how to leverage the 
 
 - [Challenge 01](./challenges/caf-advanced-challenges.md) Landing Zone deployment
 - [Challenge 02](./challenges/caf-advanced-challenges.md) IaC and PaC with GitHub actions
-- [Challenge 03](./challenges/caf-advanced-challenges.md) AzGov Visualizer
-- [Challenge 04](./challenges/caf-advanced-challenges.md) Azure Review Checklists
+- [Challenge 03](./challenges/caf-advanced-challenges.md) Azure VM BCDR at scale
+- [Challenge 04](./challenges/caf-advanced-challenges.md) AzGov Visualizer
+- [Challenge 05](./challenges/caf-advanced-challenges.md) AzGov Review Checklists
+- [Challenge 06](./challenges/caf-advanced-challenges.md) Environment cleanup

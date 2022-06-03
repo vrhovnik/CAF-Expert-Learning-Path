@@ -44,7 +44,7 @@ In this challenge you will be using Policy-As-Code to modify a policy definition
 
 ---
 
-Challenge 3 - Azure VM BCDR at scale
+## Challenge 3 - Azure VM BCDR at scale
 
 In this challenge you will be deploying an Azure Virtual Machine in the same region as your Hub network which will be auto-enabled for backup and DR on creation using Azure Policy. Explore the possibility of using tags to associate backup and DR policies via Azure Policy.
 

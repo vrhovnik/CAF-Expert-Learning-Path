@@ -9,9 +9,13 @@ In this challenge you will be deploying one of the Reference implementations loc
 Success criteria for this challenge:
 
 - Plan and document the IP addressing for the Hub network. Customer will be leveraging Azure Firewall, Azure ExpressRoute + VPN, Azure Bastion.
+
 - In your plan, clearly document subnet names, whether the use of NSGs and / or UDRs is allowed, and the minimum recommended subnet size.
+
 - Define if it's a brownfield or greenfield deployment.
+
 - Create a high-level deployment workflow (diagram not a CICD pipeline!) including pre-requisites.
+
 - Deploy either the Trey Research or AdventureWorks reference implementation.
 
 - **Do not deploy** the integrated CICD pipeline
@@ -40,7 +44,22 @@ In this challenge you will be using Policy-As-Code to modify a policy definition
 
 ---
 
-## Challenge 3 - Governance Reporting
+Challenge 3 - Azure VM BCDR at scale
+
+In this challenge you will be deploying an Azure Virtual Machine in the same region as your Hub network which will be auto-enabled for backup and DR on creation using Azure Policy. Explore the possibility of using tags to associate backup and DR policies via Azure Policy.
+
+Success criteria for this challenge:
+
+- Configure Azure Backup (e.g., vault, backup policy, etc.)
+- Configure Azure Policy to auto-enable backup on VM creation
+- Configure Azure Site Recovery (e.g., vault, policy, etc.)
+- Configure Azure Policy to auto-enable DR on VM creation
+- Deploy VM
+- Observer Azure Policy behaviour
+
+---
+
+## Challenge 4 - Governance Reporting
 
 In this challenge you will be implementing [AzGovViz](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting) which is a PowerShell based script that iterates your Azure Tenant´s Management Group hierarchy down to Subscription level. It captures most relevant Azure governance capabilities such as Azure Policy, RBAC and Blueprints and a lot more. From the collected data AzGovViz provides visibility on your HierarchyMap, creates a TenantSummary, creates DefinitionInsights and builds granular ScopeInsights on Management Groups and Subscriptions.
 
@@ -52,7 +71,7 @@ Success criteria for this challenge:
 
 ---
 
-## Challenge 4 - Azure Design Review
+## Challenge 5 - Azure Design Review
 
 In this challenge you will be doing an Azure design review to double-check that best practices are being followed. You will be using this [repo](https://github.com/Azure/review-checklists) which contains code and examples to operationalize spreadsheet-based checklists that can be used for Azure design reviews on multiple technologies.
 
@@ -63,6 +82,6 @@ Success criteria for this challenge:
 
 ---
 
-## Challenge 5 - Azure Environment Clean-up
+## Challenge 6 - Azure Environment Clean-up
 
 Works-in-progress

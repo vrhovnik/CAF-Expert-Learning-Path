@@ -35,7 +35,7 @@ Success criteria for this challenge:
 In this challenge you will be using Policy-As-Code to modify a policy definition which is blocking you from creating the Azure Bastion Subnet.
 
 - In your hub network, try to create the Azure Bastion Subnet. Azure Policy should block the operation.
-- Modify the policy which is enforcing the use of Network Security Groups.
+- Modify the policy which is enforcing the use of Network Security Groups. You are not allowed to change the policy effect. A deny is a deny.
 - Create the Azure Bastion Subnet.
 
 ---

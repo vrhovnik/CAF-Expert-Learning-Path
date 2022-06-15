@@ -8,9 +8,8 @@ In this challenge you will be deploying one of the Reference implementations loc
 
 Success criteria for this challenge:
 
-- Plan and document the IP addressing for the Hub network. Customer will be leveraging at least Azure Firewall, Azure VPN Gateway, and Azure Bastion.
-- In your plan, clearly document subnet names, whether the use of NSGs and / or UDRs is allowed, and the minimum recommended subnet size. Inlcude references to online documentation.
-- Create a high-level deployment workflow (diagram not a CICD pipeline!) including pre-requisites.
+- Plan and document the IP addressing for the Hub network. Customer will be leveraging at least Azure Firewall, Azure VPN Gateway, and Azure Bastion. In your plan, clearly document subnet names, whether the use of NSGs and / or UDRs is allowed, and the minimum recommended subnet size. Inlcude references to online documentation.
+- Document the deployment process by creating a high-level workflow including pre-requisites.
 - Deploy either the Trey Research or AdventureWorks reference implementation.
 
 - **Do not deploy** the integrated CICD pipeline

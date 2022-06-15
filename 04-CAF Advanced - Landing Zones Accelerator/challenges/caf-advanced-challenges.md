@@ -20,7 +20,7 @@ Success criteria for this challenge:
 
 ## Challenge 2 - IaC with GitHub Actions
 
-In this challenge you will be manually creating a CICD pipeline which will allow you to operate the Azure platform using AzOps (IaC with GitHub Actions).
+In this challenge you will be manually creating a CICD pipeline which will allow you to operate the Azure platform using [AzOps](https://github.com/Azure/AzOps) (IaC with GitHub Actions).
 
 This PowerShell module is rooted in the principle that everything in Azure is a resource and to operate at-scale, it should be managed declaratively to determine target goal state of the overall platform. Guidance for this challenge is located [here](https://github.com/azure/azops/wiki/github-actions).
 

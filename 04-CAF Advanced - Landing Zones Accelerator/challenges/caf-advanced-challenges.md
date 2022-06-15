@@ -8,10 +8,8 @@ In this challenge you will be deploying one of the Reference implementations loc
 
 Success criteria for this challenge:
 
-- Plan and document the IP addressing for the Hub network. Customer will be leveraging Azure Firewall, Azure ExpressRoute + VPN, Azure Bastion.
-- In your plan, clearly document subnet names, whether the use of NSGs and / or UDRs is allowed, and the minimum recommended subnet size.
-- Define if it's a brownfield or greenfield deployment.
-- Create a high-level deployment workflow (diagram not a CICD pipeline!) including pre-requisites.
+- Plan and document the IP addressing for the Hub network. Customer will be leveraging at least Azure Firewall, Azure VPN Gateway, and Azure Bastion. In your plan, clearly document subnet names, whether the use of NSGs and / or UDRs is allowed, and the minimum recommended subnet size. Inlcude references to online documentation.
+- Document the deployment process by creating a high-level workflow including pre-requisites.
 - Deploy either the Trey Research or AdventureWorks reference implementation.
 
 - **Do not deploy** the integrated CICD pipeline
@@ -20,7 +18,7 @@ Success criteria for this challenge:
 
 ## Challenge 2 - IaC with GitHub Actions
 
-In this challenge you will be manually creating a CICD pipeline which will allow you to operate the Azure platform using AzOps (IaC with GitHub Actions).
+In this challenge you will be manually creating a CICD pipeline which will allow you to operate the Azure platform using [AzOps](https://github.com/Azure/AzOps) (IaC with GitHub Actions).
 
 This PowerShell module is rooted in the principle that everything in Azure is a resource and to operate at-scale, it should be managed declaratively to determine target goal state of the overall platform. Guidance for this challenge is located [here](https://github.com/azure/azops/wiki/github-actions).
 
@@ -50,7 +48,7 @@ Success criteria for this challenge:
 - Configure Azure Policy to auto-enable backup on VM creation
 - Configure Azure Site Recovery (e.g., vault, policy, etc.)
 - Configure Azure Policy to auto-enable DR on VM creation
-- Deploy VM
+- Deploy an Azure VM
 - Observer Azure Policy behaviour
 
 ---

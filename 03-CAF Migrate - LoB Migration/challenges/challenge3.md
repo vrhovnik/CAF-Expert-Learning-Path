@@ -25,7 +25,7 @@ Contoso has the following requirements which you should take into consideration:
 
 - The target environment is deployed in a different resource group you can use the resource group name "rg-lz-weu001" or similar for this).
 - Network segmentation is in place and limits lateral movement between application layers, including non-application communication such as RDP access.
-- Server administrators in the CIT Server Admins security group can access all of the migrated servers in a secure manner which does not require opening RDP access to the public internet for any migrated servers.
+- Server administrators in the "Server Admins" security group can access all of the migrated servers in a secure manner which does not require opening RDP access to the public internet for any migrated servers.
 - For any migrated servers, native Azure functionality such as the Run Command should be available as if the server was provisioned from the Azure Marketplace.
 
 Let's build up everything in Azure so that the VMs could be migrated to your Landing Zone. And describe how you will address the success criteria.

@@ -48,7 +48,7 @@ Success criteria for this challenge:
 - Configure Azure Policy to auto-enable backup on VM creation
 - Configure Azure Site Recovery (e.g., vault, policy, etc.)
 - Configure Azure Policy to auto-enable DR on VM creation
-- Deploy VM
+- Deploy an Azure VM
 - Observer Azure Policy behaviour
 
 ---

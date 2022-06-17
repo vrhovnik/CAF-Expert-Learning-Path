@@ -69,19 +69,6 @@ Write-Host "ARM_CLIENT_SECRET: $($servicePrincipal.PasswordCredentials.SecretTex
 
 ## Azure Role Assignment
 
-#### Assign Azure role to root (/) scope
-
-If you want to manage your entire Azure landscape using AzOps, assign the `Owner` role at the root `(/)` scope.
-
-```powershell
-$roleToAssign = 'Owner'
-$ErrorActionPreference = 'Stop'
-$servicePrincipal = Get-AzADServicePrincipal -DisplayName $servicePrincipalDisplayName
-New-AzRoleAssignment -ObjectId $servicePrincipal.Id -RoleDefinitionName $roleToAssign -Scope '/'
-```
-
-> You may need to elevate your access in Azure before being able to create a root scoped assignment.
-
 #### Assign Azure role to management group scope
 
 If you intend to only manage a subset of your Azure landscape, you can assign permissions at management group scope instead of root. Use the script below to assign permissions at management group level.
@@ -93,6 +80,19 @@ $servicePrincipal = Get-AzADServicePrincipal -DisplayName $servicePrincipalDispl
 $managementGroup = Get-AzManagementGroup -GroupId $managementGroupName
 New-AzRoleAssignment -ObjectId $servicePrincipal.Id -RoleDefinitionName $roleToAssign -Scope $managementGroup.Id
 ```
+#### OR
+#### Assign Azure role to the tenant root (/) scope (ask yourself: do I really need this level of access?)
+
+If you want to manage your entire Azure landscape using AzOps, assign the `Owner` role at the root `(/)` scope.
+
+```powershell
+$roleToAssign = 'Owner'
+$ErrorActionPreference = 'Stop'
+$servicePrincipal = Get-AzADServicePrincipal -DisplayName $servicePrincipalDisplayName
+New-AzRoleAssignment -ObjectId $servicePrincipal.Id -RoleDefinitionName $roleToAssign -Scope '/'
+```
+
+> You may need to elevate your access in Azure before being able to create a root scoped assignment.
 
 ---
 

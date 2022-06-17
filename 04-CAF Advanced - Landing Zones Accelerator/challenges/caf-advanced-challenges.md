@@ -28,14 +28,16 @@ Success criteria for this challenge:
 
 - Configure AzOps via Portal or command-line script
 - Initiate the first Pull workflow
-- Validate AzOps by creating a new [Policy Assignment](https://github.com/Azure/Enterprise-Scale/wiki/Deploying-Enterprise-Scale-Platform-DevOps#create-new-policy-assignment-for-validation)
+- Validate AzOps by making sure that the Azure hierarchy that got created using ARM templates as part of the Enterprise-Scale setup, such as management groups, subscription organization as well as policy definitions, policy assignments and role assignments are hydrated and organized into Git.
+- Using GitHub, create a new [Policy Assignment](https://github.com/Azure/Enterprise-Scale/wiki/Deploying-Enterprise-Scale-Platform-DevOps#create-new-policy-assignment-for-validation) and validate the assignment thru the Azure Portal.
+- Using GitHub, create a new Role Assignment on the "Sanbox" management group which grants members of the AAD group "Sandbox Contributors" contributor access at the management group level and validate the assignment thru the Azure Portal.
 
 ## Challenge 2a - PaC with GitHub Actions
 
 In this challenge you will be using Policy-As-Code to modify a policy definition which is blocking you from creating the Azure Bastion Subnet.
 
 - In your hub network, try to create the Azure Bastion Subnet. Azure Policy should block the operation.
-- Modify the policy which is enforcing the use of Network Security Groups. You are not allowed to change the policy effect. A deny is a deny.
+- Using GitHub, modify the policy which is enforcing the use of Network Security Groups. You are not allowed to change the policy effect. A deny is a deny.
 - Create the Azure Bastion Subnet.
 
 ---

@@ -51,7 +51,7 @@ Success criteria for this challenge:
 - Configure Azure Site Recovery (e.g., vault, policy, etc.)
 - Configure Azure Policy to auto-enable DR on VM creation
 - Deploy an Azure VM
-- Observer Azure Policy behaviour
+- VM is enabled for BCDR via Azure Policy
 
 ---
 
@@ -80,4 +80,15 @@ Success criteria for this challenge:
 
 ## Challenge 6 - Azure Environment Clean-up
 
-Works-in-progress
+In this challenge, you will be exploring all possible options available to you to clean up your Azure environment to minimize costs.
+
+Success criteria for this challenge:
+
+- Identify the resources whcih you have to delete.
+- Discuss the impact of deleting these resources.
+- Delete the resources identified in Step 1.
+- Delete the ESLZ deployment.
+- Invite your coach for end-of-day beers!
+
+---
+

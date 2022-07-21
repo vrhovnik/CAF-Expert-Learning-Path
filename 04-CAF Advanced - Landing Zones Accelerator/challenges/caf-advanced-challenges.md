@@ -8,11 +8,9 @@ In this challenge you will be deploying one of the Reference implementations loc
 
 Success criteria for this challenge:
 
-- Plan and document the IP addressing for the Hub network. Customer will be leveraging at least Azure Firewall, Azure VPN Gateway, and Azure Bastion. In your plan, clearly document subnet names, whether the use of NSGs and / or UDRs is allowed, and the minimum recommended subnet size. Inlcude references to online documentation. Use the provided template in the /sources folder.
-
-- Document the deployment process by creating a high-level workflow including pre-requisites.
-
-- Deploy either the Trey Research or AdventureWorks reference implementation.
+- Plan and document the IP addressing for the Hub network. Customer will be leveraging at least Azure Firewall, Azure VPN Gateway, and Azure Bastion. In your plan, clearly document subnet names, whether the use of NSGs and / or UDRs is allowed by Azure, and the minimum recommended subnet size. Inlcude references to online documentation. Use the provided template in the /sources folder.
+- Document the deployment process by creating a high-level workflow including pre-requisites related to AAD permissions, min. number of subscriptions, subscription naming convention and renaming, etc.
+- Deploy the AdventureWorks reference implementation.
 
 - **Do not deploy** the integrated CICD pipeline
 
@@ -40,6 +38,13 @@ In this challenge you will be using Policy-As-Code to modify a policy definition
 - Using GitHub, modify the policy which is enforcing the use of Network Security Groups. You are not allowed to change the policy effect. A deny is a deny.
 - Create the Azure Bastion Subnet.
 
+## Challenge 2b - Azure Best Practices and Trade-Offs
+
+In this challenge you will be using Policy-As-Code to modify a policy definition which is blocking you from creating the Azure Bastion Subnet.
+
+- In your subscription, try to create a new Virtual Network. Azure Policy should block the operation.
+- Discuss findings and possible solutions (e.g., change Azure Policy effect to "Audit", explore the use of Policy Exemptions, Azure Virtual Network Manager, etc.) with your peers and coach.
+
 ---
 
 ## Challenge 3 - Azure VM BCDR at scale
@@ -53,7 +58,7 @@ Success criteria for this challenge:
 - Configure Azure Site Recovery (e.g., vault, policy, etc.)
 - Configure Azure Policy to auto-enable DR on VM creation
 - Deploy an Azure VM
-- VM is enabled for BCDR via Azure Policy
+- VM is enabled for BCDR (Azure Backup and Azure Site Recovery) via Azure Policy
 
 ---
 

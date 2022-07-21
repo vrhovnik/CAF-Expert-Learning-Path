@@ -70,7 +70,7 @@ Success criteria for this challenge:
 
 - Setup AzGovViz from the console or GitHub Codespaces
 - Run AzGovViz, show and tell your findings to your coach.
-- Vist AzAdvertizer, show and tell your findings to your coach.
+- If time permits, publish AzGovViz HTML output to an Azure WebApp.
 
 ---
 
@@ -81,7 +81,7 @@ In this challenge you will be doing an Azure design review to double-check that 
 Success criteria for this challenge:
 
 - Use the Excel spreadsheet, import the latest checklist, and explore the contents of the file.
-- If there is enough time left, use the Azure Resource Graph to verify your Azure environment.
+- Review all checklist items with a "high" severity.
 
 ---
 

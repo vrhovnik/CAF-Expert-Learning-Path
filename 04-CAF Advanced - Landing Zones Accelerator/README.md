@@ -1,6 +1,6 @@
 # Cloud Adoption Expert Module 3: Azure Landing Zone Accelerator
 
-In this workshop, you will learn how to **design and deploy the Azure landing zone conceptual architecture**.
+In this workshop, you will learn how to **make design decisions and deploy the Azure landing zone conceptual architecture**.
 You will get familiar with the design areas and design principles of Azure Landing Zones.
 
 At the end of this workshop, you will be able to understand how to leverage the existing reference implementations as well as how to establish policy-driven governance.

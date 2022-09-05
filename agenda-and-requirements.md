@@ -9,16 +9,13 @@
 | CAF Migration | 2-Days   | Technical         | CAF Basic plus [AZ-104](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104)                                                                                                                                                                     | [AZ-500](https://docs.microsoft.com/en-us/learn/certifications/exams/az-500) and [AZ-305](https://docs.microsoft.com/en-us/learn/certifications/exams/az-305) | [Applications and infrastructure migration and modernization](https://docs.microsoft.com/en-us/learn/modules/app-and-infra-migration-and-modernization/)                                                                                             | Required per Team; each individual with Owner RBAC role             | [Deploy this lab environment at least 1 day before HOL](https://github.com/jonathan-vella/MCW-Line-of-business-application-migration/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Line-of-business%20application%20migration.md) |
 | CAF Advanced  | 2-Days   | Technical         | CAF Migration plus [AZ-104](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104) , [AZ-500](https://docs.microsoft.com/en-us/learn/certifications/exams/az-500) and [AZ-305](https://docs.microsoft.com/en-us/learn/certifications/exams/az-305) | [AZ-400](https://docs.microsoft.com/en-us/learn/certifications/exams/az-400) and [AZ-700](https://docs.microsoft.com/en-us/learn/certifications/exams/az-700) | [Build a cloud governance strategy on Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/) and [Enterprise Scale Architecture](https://docs.microsoft.com/en-us/learn/paths/enterprise-scale-architecture/) | Required per individual with Owner RBAC role and Tenant Root Access | Make sure that you have the necessary AAD permissions                                                                                                                                                                                   |
 
-# **Azure subscription requirements**
+# **Azure subscription & tenant access requirements**
 
-- Azure subscriptions based on Free Account (aka Free Trial) are not compatible with the hands-on labs. Only paid subscriptions (e.g.,CSP, PAYG) are compatible. 
+- CAF Migration hackathon subscription: **Only paid Azure subscriptions (e.g.,CSP, EA, PAYG) are compatible**. The subscription and can be shared across teams as long as the number of resources required (e.g., Cores, vNets, etc.) are within the Azure subscription and service limits, quotas, and constraints. **Azure subscriptions based on Free Account and Azure Pass are not compatible** with the hands-on labs for the CAF Migrate hackathon. 
 
-- Azure subscription for CAF Migration must be a paid (not Trial) subscription and can be shared across teams as long as the number of resources required (e.g., Cores, vNets, etc.) are within the Azure subscription and service limits, quotas, and constraints.
-
-- Azure subscription for CAF Advanced must be a paid subscription associated to a non-production AAD tenant since [tenant root access](https://github.com/Azure/Enterprise-Scale/wiki/Deploying-Enterprise-Scale-Pre-requisites) is required during HOL.
+- CAF Advanced hackthon subscription: The Azure subscription for CAF Advanced must be associated to a **non-production AAD tenant** since [tenant root access](https://github.com/Azure/Enterprise-Scale/wiki/Deploying-Enterprise-Scale-Pre-requisites) is required during HOL.
 
 - Azure subscriptions in CSP must have Azure Cost Management enabled as per this [document](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/get-started-partners)
-
  
 
 # **Tooling Prerequisites**

@@ -1,5 +1,5 @@
 # This project is no longer being maintained and will soon be archived.
-# But don't panic! A new project will soon be made available. Stay tuned!
+# But don't panic! A new project will soon be available at https://github.com/jonathan-vella/what-the-caf
 
 ## Welcome to the Cloud Adoption Expert Learning Path!
 
